@@ -1,0 +1,29 @@
+* scct -- Simple Cluster_SSH Clone using Tmux [1]
+
+** Overview
+   - Quickly create multiple tmux panes, each with an ssh connection to a specified host and optionally synchronize input
+   - Written in POSIX sh
+   - Only depends on tmux
+
+** Synopsis
+   =$ scct [[[user@]host1] ...]=
+
+   Create a tmux pane for each of the specified hosts.  Input synchronization
+   can be toggled with =prefix S=.  If a host list is not specified, the =hl=
+   variable set in =~/.scct= is used.
+
+   =$ scct -h=
+
+   Show help.
+
+** Author
+   Joseph Mingrone <jrm@ftfl.ca>
+
+** License
+   =scct= is released under a BSD 2-Clause License.  Refer to the header of each
+   source file for details.
+
+-----
+
+[1] =scct= was influenced by =Cluster SSH=, =tmux-cssh=, and a script written by
+Andrew Fresh.
