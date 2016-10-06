@@ -4,7 +4,7 @@
    - Quickly create multiple tmux panes, each with an ssh connection to a specified host and optionally synchronize input
    - Written in POSIX sh
    - Only depends on tmux
-
+   [[./scct.png]]
 ** Synopsis
    =$ scct [[[user@]host1] ...]=
 
